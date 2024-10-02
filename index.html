@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>  <!-- Navbar and main content -->
+    <div class="navbar relative">
+      <nav class="flex items-center justify-between p-4 bg-blue">
+  <!-- Logo Section -->
+  <div class="text-base lg:text-xl">
+    <a href="#" class="flex items-center space-x-2">
+      <img src="logo.svg" alt="Logo" class="w-8 h-8 lg:w-10 lg:h-10">
+      <span class="font-bold">Pop Rock Crystal</span>
+    </a>
+  </div>
+
+  <!-- Menu Items -->
+  <ul class="flex gap-x-3 lg:gap-x-8 text-sm lg:text-xl items-center">
+    <li><a href="#" class="hover:text-blue-500">Home</a></li>
+    <li><a href="#" class="hover:text-blue-500">Shop</a></li>
+    <li><a href="#" class="hover:text-blue-500">About Us</a></li>
+    <li><a href="#" class="hover:text-blue-500">Help</a></li>
+    <li>
+      <a href="#" class="flex items-center space-x-2">
+        <img src="bag.svg" alt="Cart" class="w-6 h-6 lg:w-8 lg:h-8">
+      </a>
+    </li>
+  </ul>
+</nav>
+
+  
+      <!-- Main content -->
+      <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 p-8 font-Google-Sans relative z-10">
+        <div>
+          <p class="text-2xl">Welcome to</p>
+          <h1 class="text-5xl font-bold">Pop Rock Crystal Shop!</h1>
+          <p class="lg:pr-[180px] pr-[50px] text-[#31546D] pt-12 text-xl">
+            Here you will find unique phone accessories, crystals, jewelry and more. Free shipping inside the U.S. and our phone grips come with a limited warranty. Enjoy!
+          </p>
+          <button class="bg-white text-[#31546D] px-8 py-4 rounded-2xl mt-8">Shop Now</button>
+          <span class="pl-8 text-[#31546D]">About Us</span>
+        </div>
+  
+        <div class="relative">
+          <a>
+            <img src="crystel.svg" alt="Crystal" class="w-50 h-50 bg-white lg:ml-24 mb-24 p-8 rounded-[30px] relative z-10">
+          </a>
+        </div>
+      </div>
+  
+      <!-- Wave SVG as background -->
+      <div class="wave-svg absolute bottom-0 left-0 w-full z-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#fff" fill-opacity="1"
+            d="M0,256L60,229.3C120,203,240,149,360,144C480,139,600,181,720,176C840,171,960,117,1080,90.7C1200,64,1320,64,1380,64L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+          </path>
+        </svg>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center ">
+      <h1 class="text-center text-5xl font-bold text-[#31546D]">All products</h1>
+  </div>
+  
+  <div class="flex space-x-8 ml-8">
+    <button class="px-4 py-2  text-[#31546D]">Filter: <span class="text-black">All Products  ⬇️</span></button>
+    <button class="px-4 py-2 text-[#31546D]">Sort: <span class="text-black">
+      by Best Selling  ⬇️
+    </span> </button>
+</div>
+
+
+<div class="grid lg:grid-cols-4 grid-cols-2 p-8 ">
+  <!-- Product 1 -->
+  <div class=" border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 2 -->
+  <div class=" product border-2 rounded-3xl p-2 m-2">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+    <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+    <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+    <p class="text-[#317189] font-semibold text-center">$18.99</p>
+    <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+</div>
+
+  <!-- Product 4 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+
+  <!-- Product 8 -->
+  <div class="border-2 rounded-3xl p-2 m-2 product">
+      <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Crystal Agate Phone Grip" class="w-full rounded-xl mb-4">
+      <h2 class="text-lg font-semibold text-gray-600 text-center">Crystal Agate Phone Grip</h2>
+      <p class="text-[#317189] font-semibold text-center">$18.99</p>
+      <button class="bg-white text-[#317189] border-2 border-[#317189] ml-3 px-4 py-2 rounded-xl text-bold hover:bg-blue-500 hover:text-white product">Buy Now</button>
+  </div>
+</div>
+
+
+
+
+<div class="grid lg:grid-cols-2 grid-cols-1 justify-center border relative overflow-hidden">
+  <!-- First Column -->
+  <div class="flex items-center justify-center min-h-screen p-4 lg:p-8">
+    <div class="p-4 lg:p-8 rounded-lg bg-white max-w-md text-center">
+      <!-- Best Price Label -->
+      <p class="text-gray-500 text-sm">BEST PRICE</p>
+      
+      <!-- Product Name -->
+      <h1 class="text-2xl lg:text-4xl font-bold text-gray-800 my-4">Agate Phone Grip</h1>
+      
+      <!-- Pricing -->
+      <div class="flex items-center justify-center space-x-2 lg:space-x-4">
+        <span class="line-through text-gray-400 text-lg lg:text-xl">44.50$</span>
+        <span class="text-red-500 text-2xl lg:text-4xl font-bold">19.50$</span>
+      </div>
+  
+      <!-- Description -->
+      <p class="text-gray-600 my-4 text-sm lg:text-base">
+        These Pop Rock Crystal grip tops can be swapped with other tops depending on your mood, outfit, nails, phone case, holiday, etc.! 
+        Just gently squeeze the sides to remove and swap out with another color or design.
+      </p>
+  
+      <!-- Buy Now Button -->
+      <button class="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-600 transition-colors">BUY NOW</button>
+    </div>
+  </div>
+
+  <!-- Second Column with Image -->
+  <div class="relative lg:absolute lg:bottom-24 bottom-10 lg:right-32 right-0 z-10">
+    <div class="relative roundGrip flex items-center justify-center lg:h-[560px] lg:w-[560px] h-[250px] w-[250px] border border-red">
+      <div class="relative roundGrip flex items-center justify-center lg:h-[430px] lg:w-[430px] h-[200px] w-[200px]">
+        <!-- Middle Circle -->
+        <div class="absolute roundGrip lg:h-[330px] lg:w-[330px] h-[150px] w-[150px] flex items-center justify-center">
+          <!-- Inner Image -->
+          <div class="image-circle overflow-hidden h-[50px] w-[50px]">
+            <img src="https://s3-alpha-sig.figma.com/img/e983/aa18/4f2bd18d1128138bb02546cd5f590b99?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l6Ze6gR2XtCMN0DoKk2OT3wc2nQsTaJNl35PSDhPKWLmsAO7yla3i2NXuF32PV1ia5LAYkEWXk3SBfpJM-ChxE0bVGEarV6bsYu35MGyaeIy755B7~jjxLz6a7y6NsXrKpmBJ43-9X7h4Zu4IN0qjhTdI1tpSwyvfF~Kj9EnyDSLmZA8NncK6rrsef~GSNCjcPH6USEs7i9xY315EhrScET5B7Chp-7hpfj5CqPVjC4xkq~20jLh92tjFFnrYHrjWgRiwy9XyleLDsgLhuu6k3TzioTHa0NNT5Fy6a0xks5uGofG1agohsTszBF75MRFxkY3rGzz~brivJWt7rx0wQ__" alt="Center Image" class="object-cover w-full h-full">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SVG Wave at the Bottom -->
+  <div class="absolute lg:-bottom-20 -bottom-10 left-0 w-full -z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#87DEEA" fill-opacity="1" d="M0,96L80,122.7C160,149,320,203,480,197.3C640,192,800,128,960,85.3C1120,43,1280,21,1360,10.7L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+  </div>
+</div>
+
+
+
+
+<!-- blue border in the footor -->
+<div class="bg-[#0A294DCC]  p-24"></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgb(28, 213, 238);
+  color: white;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.wave-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.webbody {
+  background-color: aqua;
+}
+
+.bottomBody {
+  background-color: brown;
+}
+.product:hover{
+  box-shadow: 1px 1px 20px gray;
+}
+.roundGrip{
+  box-shadow: 1px 1px 20px gray;
+  border-radius: 50%;
+
+}
+
+
+
+
